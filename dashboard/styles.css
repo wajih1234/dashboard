@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: forestgreen;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.img-box{
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    
+}
+h1{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.profil{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu{
+    background-color: #123;
+    width: 60px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+}
+.menu:hover{
+width:260px;
+}
+body{
+    background-color: #001;
+    display: flex;
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: .5s;
+
+}
+ul li a:hover,.data-info  .box:hover{
+    background-color: #fffff5;
+}
+.log-out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.log-out a{
+    background-color: #a00;
+}
+ul li a i{
+    font-size: 30px;
+}
+.content {
+    background-color: #fffff5;
+    width: 100%;
+}
+.title-info{
+    background-color: rgb(15%,10%, 8%);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.data-info .box{
+    height: 150px;
+    flex-basis: 150px;
+    background-color: #123;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.data-info  .box i{
+    font-size: 40px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing:10px ;
+}
+td,th{
+    background-color: #123;
+    height: 40px;
+}
+th{
+    background-color: aqua;
+}
+.count{
+    background-color: yellow;
+}
+.price{
+    background-color: violet;
+}
+
